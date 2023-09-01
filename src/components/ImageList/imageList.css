@@ -1,0 +1,79 @@
+.headerImage {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 8px 50px;
+    /* height: 250px; */
+    background-color: #ffff;
+}
+
+.imageheader>img {
+    height: 70px;
+    object-fit: contain;
+}
+.image_details:hover{
+    
+    transform: scaleX(1.2) scaleY(1.2);
+}
+.image_details>img:hover{
+    transform: scaleX(1.4) scaleY(1.2);
+}
+
+  .ratings {
+        width: 50px;
+        padding: 5px;
+        /* font-weight: 100; */
+        color: #fff;
+        border-radius: 3px;
+        vertical-align: middle;
+        font-size: 13px;
+        /* margin: 10px 0; */
+        /* background-color: #388e3c;; */
+    }
+    .ratings >.MuiSvgIcon-root{
+        color: white;
+        font-weight: 200;
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+.imageheader {
+    cursor: pointer;
+}
+
+.image_details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* border: 1px solid gray; */
+    border-radius: 5%;
+    box-shadow:   5px 2px 10px 1px gray;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 40px 25px;
+    overflow: hidden;
+    /* transform: translate3d(1007px, 0px, 0px); */
+    /* transition: step-start 2s ease 0s; */
+    /* overflow: unset; */
+    text-decoration: none;
+
+}
+
+.image_details>img {
+    width: 300px;
+    height: 200px;
+    padding: 30px 0 20px 0;
+    object-fit: contain;
+}
+.image_details > p{
+    color: black;
+    font-size: 1.0715rem;
+    object-fit: contain;
+    width: 240px;
+    margin-left: 28px;
+    font-weight: 600px;
+}
+/* .image___list {
+    transition: none 0s ease 0s;
+    overflow: unset;
+    transform: translate3d(-907px, 0px, 0px);
+} */
